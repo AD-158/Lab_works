@@ -1,0 +1,50 @@
+.hero {
+    display: flex;
+    justify-content: space-evenly;
+    align-items: center;
+    background: linear-gradient(135deg, #2E6144FF, #112120);
+    padding: 50px 50px 200px;
+}
+
+.hero__content {
+    max-width: 50%;
+    color: white;
+}
+
+.hero__content h1 {
+    max-width: 75%;
+    font-size: 55px;
+}
+
+.hero__content p {
+    max-width: 65%;
+    font-size: 25px;
+    opacity: 0.5;
+    padding-bottom: 68px;
+}
+.cta__button {
+    background: linear-gradient(135deg, #FF7B4E, #FF584E);
+    padding: 30px 50px;
+    color: white;
+    text-decoration: none;
+    border-radius: 27px;
+    font-size: 25px;
+}
+
+.explore__button {
+    background-color: #FFFFFF40;
+    fill-opacity: 0.7;
+    color: white;
+    padding: 10px 20px;
+    border: none;
+    border-radius: 20px;
+    margin-bottom: 20px;
+}
+
+.hero__image img {
+    max-width: 100%;
+    border-radius: 10px;
+    width: 408px;
+    height: 602px;
+    transform: scale(-1, 1);
+}

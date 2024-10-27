@@ -1,0 +1,25 @@
+footer {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    background-color: #f7f7f7;
+    padding: 20px;
+    margin-top: 50px;
+}
+
+.footer__logo {
+    font-weight: bold;
+    font-size: 18px;
+    color: #FF7C4E;
+}
+
+footer nav ul {
+    display: flex;
+    gap: 20px;
+    list-style-type: none;
+}
+
+footer nav ul li a {
+    color: #0F1F1C;
+    text-decoration: none;
+}

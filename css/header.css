@@ -1,0 +1,47 @@
+header {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    background: linear-gradient(135deg, #306446FF, #1c342c);
+    padding: 20px;
+}
+
+.logo {
+    color: white;
+    font-size: 24px;
+    font-weight: bold;
+}
+
+nav ul {
+    list-style-type: none;
+    display: flex;
+    gap: 20px;
+}
+
+nav ul li a {
+    color: white;
+    text-decoration: none;
+}
+
+.buttons {
+    display: flex;
+    gap: 15px;
+}
+
+.signup__white, .signup__dark, .login {
+    padding: 10px 20px;
+    border-radius: 25px;
+    text-decoration: none;
+}
+
+.signup__white, .signup__dark, .login {
+    color: white;
+}
+
+.signup__dark {
+    color: #838B89;
+}
+
+.login {
+    background: linear-gradient(135deg, #FF7B4E, #FF584E);
+}
