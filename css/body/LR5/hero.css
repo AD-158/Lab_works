@@ -1,0 +1,55 @@
+.illustration {
+    flex: 1;
+    background-color: #1e1b4b;
+    padding: 2rem;
+    display: flex;
+    justify-content: center;
+    flex-direction: column;
+    align-items: center;
+}
+
+.illustration div {
+    max-width: 546px;
+    flex-grow: inherit;
+    display: flex;
+    flex-direction: column;
+    justify-content: start;
+    align-items: center;
+    color: white;
+    text-align: center;
+}
+
+.illustration img {
+    max-width: 80%;
+    margin-bottom: 14rem;
+    max-height: 521px;
+}
+
+.contact {
+    color: white;
+    text-decoration: none;
+    align-self: end;
+}
+
+.illustration_text-main {
+    max-width: 546px;
+    font-size: 40px;
+    align-self: start;
+}
+
+.illustration_text-sub {
+    max-width: 546px;
+    font-size: 20px;
+    align-self: start;
+}
+
+/* Mobile Responsive Design */
+@media (max-width: 768px) {
+    .illustration {
+        display: none;
+    }
+
+    .contact {
+        display: none;
+    }
+}

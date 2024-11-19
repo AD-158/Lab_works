@@ -1,0 +1,33 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    -moz-box-sizing: border-box;
+    -webkit-box-sizing: border-box;
+    font-family: "Poppins", sans-serif;
+}
+
+body {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    min-height: 100vh;
+    margin: 0;
+    background-color: #f0f8ff;
+    font-family: "Open Sans", sans-serif;
+    box-sizing: border-box;
+}
+
+.container {
+    background-color: white;
+    display: flex;
+    width:1440px;
+    max-height:900px;
+}
+
+/* Mobile Responsive Design */
+@media (max-width: 768px) {
+    .container {
+        flex-direction: column;
+    }
+}
