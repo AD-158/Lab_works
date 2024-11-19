@@ -1,0 +1,38 @@
+h2 {
+    margin: 0;
+    text-align: left;
+    font-size: 47px;
+}
+
+hr {
+    border: 0;
+    border-top: 1px solid #ddd;
+    margin: 10px 0;
+}
+
+.info {
+    display: flex;
+    flex-direction: column;
+    gap: 19px;
+}
+
+.info-row {
+    display: flex;
+    justify-content: space-between;
+    padding: 10px 0;
+    height: 40px;
+    font-size: 28.5px;
+}
+
+.label {
+    color: #333;
+}
+
+.value {
+    color: #666;
+}
+
+.location-link {
+    color: #0066cc;
+    cursor: pointer;
+}

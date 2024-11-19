@@ -1,0 +1,26 @@
+* {
+  box-sizing: border-box;
+  -moz-box-sizing: border-box;
+  -webkit-box-sizing: border-box;
+}
+
+body {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    min-height: 100vh;
+    margin: 0;
+    background-color: #f0f8ff;
+    font-family: "Open Sans", sans-serif;
+    box-sizing: border-box;
+}
+
+.card {
+    width: 535px;
+    height: 653px;
+    background-color: white;
+    border-radius: 15px;
+    box-shadow: 0 5px 15px rgba(0, 0, 0, 0.1);
+    padding: 30px 38px 38px 30px;
+    border: 2px solid #00bfff;
+}

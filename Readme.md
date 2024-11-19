@@ -12,3 +12,5 @@ Internet connection
 ### View results
 1. LR1  
    ![img.png](resources/preview/LR1/preview.png)  
+2. LR4  
+   ![img.png](resources/preview/LR4/img.png)
