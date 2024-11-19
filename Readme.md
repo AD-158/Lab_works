@@ -8,6 +8,7 @@ Internet connection
    ```git clone https://github.com/AD-158/Lab_works.git```
 2. Go to the project directory  
    ```cd Lab_works```
-3. Open HTML (index.html) page via browser
+3. Open HTML (needed page) page via browser
 ### View results
-![img.png](resources/preview.png)
+1. LR1  
+   ![img.png](resources/preview/LR1/preview.png)  
